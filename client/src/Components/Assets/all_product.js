@@ -35,7 +35,7 @@ import p34_img from "./PRODUCTS.jpeg";
 import p35_img from "./PRODUCTS.jpeg";
 import p36_img from "./PRODUCTS.jpeg";
 
-let all_product = [
+const all_product = [
   {
     _id: 1,
     title: "Thick Curtain",

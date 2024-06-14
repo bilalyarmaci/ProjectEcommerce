@@ -10,17 +10,19 @@ const Hero = () => {
       <div className="hero-left">
         <h2>For the first time ever</h2>
         <div>
-            <div className="hero-hand-icon">
-                <p>Design</p>
-                <img src={hand_icon} alt="" />
-            </div>
-            <p>your own</p>
-            <p>product</p>
+          <div className="hero-hand-icon">
+            <p>Design</p>
+            <img src={hand_icon} alt="" />
+          </div>
+          <p>your own</p>
+          <p>product</p>
         </div>
-        <div className="hero-latest-btn">
+        <a href="http://localhost:3000/adminPanel/ai-design">
+          <div className="hero-latest-btn">
             <div>Design now</div>
             <img src={arrow_icon} alt="" />
-        </div>
+          </div>
+        </a>
       </div>
       <div className="hero-right">
         <img src={hero_image} alt="" />

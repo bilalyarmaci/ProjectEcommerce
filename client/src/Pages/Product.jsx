@@ -13,8 +13,8 @@ const Product = () => {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    if (productId >= 1 && productId < 100) {
-      const productFromContext = all_product.find((e) => e.id === Number(productId));
+    if (productId > 0 && productId < 100) {
+      const productFromContext = all_product.find((e) => e._id === Number(productId));
       setProduct(productFromContext);
     } else {
       const fetchProduct = async () => {

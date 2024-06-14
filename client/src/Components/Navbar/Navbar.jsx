@@ -103,7 +103,7 @@ const Navbar = () => {
           {menu === "AboutUs" ? <hr /> : <></>}
         </li>
       </ul>
-      <div
+      {/* <div
         className={`search-box ${isSearchOpen ? "open" : ""}`}
         onMouseEnter={() => setIsSearchOpen(true)}
         onMouseLeave={() => setIsSearchOpen(false)}
@@ -116,7 +116,7 @@ const Navbar = () => {
           className="input-search"
           placeholder="Type to Search..."
         />
-      </div>
+      </div> */}
       <div className="nav-login-cart">
         {isAdmin ? (
           <>
